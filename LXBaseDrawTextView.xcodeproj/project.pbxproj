@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CA42DD21D59C1C200B4C5CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA42DD11D59C1C200B4C5CC /* main.m */; };
+		5CA42DD51D59C1C200B4C5CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA42DD41D59C1C200B4C5CC /* AppDelegate.m */; };
+		5CA42DD81D59C1C200B4C5CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA42DD71D59C1C200B4C5CC /* ViewController.m */; };
+		5CA42DDB1D59C1C200B4C5CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA42DD91D59C1C200B4C5CC /* Main.storyboard */; };
+		5CA42DDD1D59C1C200B4C5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA42DDC1D59C1C200B4C5CC /* Assets.xcassets */; };
+		5CA42DE01D59C1C200B4C5CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA42DDE1D59C1C200B4C5CC /* LaunchScreen.storyboard */; };
+		5CA42DEB1D59C1C300B4C5CC /* LXBaseDrawTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA42DEA1D59C1C300B4C5CC /* LXBaseDrawTextViewTests.m */; };
+		5CA42DF61D59C1C300B4C5CC /* LXBaseDrawTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA42DF51D59C1C300B4C5CC /* LXBaseDrawTextViewUITests.m */; };
+		5CA42E111D59C1E200B4C5CC /* LXHelpClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA42E051D59C1E200B4C5CC /* LXHelpClass.m */; };
+		5CA42E121D59C1E200B4C5CC /* LXRichTextBaseRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA42E071D59C1E200B4C5CC /* LXRichTextBaseRun.m */; };
+		5CA42E131D59C1E200B4C5CC /* LXRichTextEmojiRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA42E091D59C1E200B4C5CC /* LXRichTextEmojiRun.m */; };
+		5CA42E141D59C1E200B4C5CC /* LXRichTextImageRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA42E0B1D59C1E200B4C5CC /* LXRichTextImageRun.m */; };
+		5CA42E151D59C1E200B4C5CC /* LXRichTextURLRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA42E0D1D59C1E200B4C5CC /* LXRichTextURLRun.m */; };
+		5CA42E161D59C1E200B4C5CC /* LXRichTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA42E0F1D59C1E200B4C5CC /* LXRichTextView.m */; };
+		5CA42E181D59C1EC00B4C5CC /* expression2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CA42E171D59C1EC00B4C5CC /* expression2.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CA42DE71D59C1C300B4C5CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CA42DC51D59C1C200B4C5CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CA42DCC1D59C1C200B4C5CC;
+			remoteInfo = LXBaseDrawTextView;
+		};
+		5CA42DF21D59C1C300B4C5CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CA42DC51D59C1C200B4C5CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CA42DCC1D59C1C200B4C5CC;
+			remoteInfo = LXBaseDrawTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CA42DCD1D59C1C200B4C5CC /* LXBaseDrawTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXBaseDrawTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA42DD11D59C1C200B4C5CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CA42DD31D59C1C200B4C5CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CA42DD41D59C1C200B4C5CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CA42DD61D59C1C200B4C5CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CA42DD71D59C1C200B4C5CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CA42DDA1D59C1C200B4C5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CA42DDC1D59C1C200B4C5CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CA42DDF1D59C1C200B4C5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CA42DE11D59C1C200B4C5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA42DE61D59C1C300B4C5CC /* LXBaseDrawTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXBaseDrawTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA42DEA1D59C1C300B4C5CC /* LXBaseDrawTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBaseDrawTextViewTests.m; sourceTree = "<group>"; };
+		5CA42DEC1D59C1C300B4C5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA42DF11D59C1C300B4C5CC /* LXBaseDrawTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXBaseDrawTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA42DF51D59C1C300B4C5CC /* LXBaseDrawTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBaseDrawTextViewUITests.m; sourceTree = "<group>"; };
+		5CA42DF71D59C1C300B4C5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA42E041D59C1E200B4C5CC /* LXHelpClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHelpClass.h; sourceTree = "<group>"; };
+		5CA42E051D59C1E200B4C5CC /* LXHelpClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHelpClass.m; sourceTree = "<group>"; };
+		5CA42E061D59C1E200B4C5CC /* LXRichTextBaseRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXRichTextBaseRun.h; sourceTree = "<group>"; };
+		5CA42E071D59C1E200B4C5CC /* LXRichTextBaseRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXRichTextBaseRun.m; sourceTree = "<group>"; };
+		5CA42E081D59C1E200B4C5CC /* LXRichTextEmojiRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXRichTextEmojiRun.h; sourceTree = "<group>"; };
+		5CA42E091D59C1E200B4C5CC /* LXRichTextEmojiRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXRichTextEmojiRun.m; sourceTree = "<group>"; };
+		5CA42E0A1D59C1E200B4C5CC /* LXRichTextImageRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXRichTextImageRun.h; sourceTree = "<group>"; };
+		5CA42E0B1D59C1E200B4C5CC /* LXRichTextImageRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXRichTextImageRun.m; sourceTree = "<group>"; };
+		5CA42E0C1D59C1E200B4C5CC /* LXRichTextURLRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXRichTextURLRun.h; sourceTree = "<group>"; };
+		5CA42E0D1D59C1E200B4C5CC /* LXRichTextURLRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXRichTextURLRun.m; sourceTree = "<group>"; };
+		5CA42E0E1D59C1E200B4C5CC /* LXRichTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXRichTextView.h; sourceTree = "<group>"; };
+		5CA42E0F1D59C1E200B4C5CC /* LXRichTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXRichTextView.m; sourceTree = "<group>"; };
+		5CA42E101D59C1E200B4C5CC /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		5CA42E171D59C1EC00B4C5CC /* expression2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expression2.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CA42DCA1D59C1C200B4C5CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA42DE31D59C1C300B4C5CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA42DEE1D59C1C300B4C5CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CA42DC41D59C1C200B4C5CC = {
+			isa = PBXGroup;
+			children = (
+				5CA42DCF1D59C1C200B4C5CC /* LXBaseDrawTextView */,
+				5CA42DE91D59C1C300B4C5CC /* LXBaseDrawTextViewTests */,
+				5CA42DF41D59C1C300B4C5CC /* LXBaseDrawTextViewUITests */,
+				5CA42DCE1D59C1C200B4C5CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CA42DCE1D59C1C200B4C5CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CA42DCD1D59C1C200B4C5CC /* LXBaseDrawTextView.app */,
+				5CA42DE61D59C1C300B4C5CC /* LXBaseDrawTextViewTests.xctest */,
+				5CA42DF11D59C1C300B4C5CC /* LXBaseDrawTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CA42DCF1D59C1C200B4C5CC /* LXBaseDrawTextView */ = {
+			isa = PBXGroup;
+			children = (
+				5CA42E031D59C1E200B4C5CC /* DrawTextView */,
+				5CA42DD31D59C1C200B4C5CC /* AppDelegate.h */,
+				5CA42DD41D59C1C200B4C5CC /* AppDelegate.m */,
+				5CA42DD61D59C1C200B4C5CC /* ViewController.h */,
+				5CA42DD71D59C1C200B4C5CC /* ViewController.m */,
+				5CA42DD01D59C1C200B4C5CC /* Supporting Files */,
+			);
+			path = LXBaseDrawTextView;
+			sourceTree = "<group>";
+		};
+		5CA42DD01D59C1C200B4C5CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CA42DE11D59C1C200B4C5CC /* Info.plist */,
+				5CA42DD91D59C1C200B4C5CC /* Main.storyboard */,
+				5CA42DDC1D59C1C200B4C5CC /* Assets.xcassets */,
+				5CA42DDE1D59C1C200B4C5CC /* LaunchScreen.storyboard */,
+				5CA42DD11D59C1C200B4C5CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CA42DE91D59C1C300B4C5CC /* LXBaseDrawTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CA42DEA1D59C1C300B4C5CC /* LXBaseDrawTextViewTests.m */,
+				5CA42DEC1D59C1C300B4C5CC /* Info.plist */,
+			);
+			path = LXBaseDrawTextViewTests;
+			sourceTree = "<group>";
+		};
+		5CA42DF41D59C1C300B4C5CC /* LXBaseDrawTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CA42DF51D59C1C300B4C5CC /* LXBaseDrawTextViewUITests.m */,
+				5CA42DF71D59C1C300B4C5CC /* Info.plist */,
+			);
+			path = LXBaseDrawTextViewUITests;
+			sourceTree = "<group>";
+		};
+		5CA42E031D59C1E200B4C5CC /* DrawTextView */ = {
+			isa = PBXGroup;
+			children = (
+				5CA42E171D59C1EC00B4C5CC /* expression2.plist */,
+				5CA42E041D59C1E200B4C5CC /* LXHelpClass.h */,
+				5CA42E051D59C1E200B4C5CC /* LXHelpClass.m */,
+				5CA42E061D59C1E200B4C5CC /* LXRichTextBaseRun.h */,
+				5CA42E071D59C1E200B4C5CC /* LXRichTextBaseRun.m */,
+				5CA42E081D59C1E200B4C5CC /* LXRichTextEmojiRun.h */,
+				5CA42E091D59C1E200B4C5CC /* LXRichTextEmojiRun.m */,
+				5CA42E0A1D59C1E200B4C5CC /* LXRichTextImageRun.h */,
+				5CA42E0B1D59C1E200B4C5CC /* LXRichTextImageRun.m */,
+				5CA42E0C1D59C1E200B4C5CC /* LXRichTextURLRun.h */,
+				5CA42E0D1D59C1E200B4C5CC /* LXRichTextURLRun.m */,
+				5CA42E0E1D59C1E200B4C5CC /* LXRichTextView.h */,
+				5CA42E0F1D59C1E200B4C5CC /* LXRichTextView.m */,
+				5CA42E101D59C1E200B4C5CC /* SynthesizeSingleton.h */,
+			);
+			path = DrawTextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CA42DCC1D59C1C200B4C5CC /* LXBaseDrawTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA42DFA1D59C1C300B4C5CC /* Build configuration list for PBXNativeTarget "LXBaseDrawTextView" */;
+			buildPhases = (
+				5CA42DC91D59C1C200B4C5CC /* Sources */,
+				5CA42DCA1D59C1C200B4C5CC /* Frameworks */,
+				5CA42DCB1D59C1C200B4C5CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXBaseDrawTextView;
+			productName = LXBaseDrawTextView;
+			productReference = 5CA42DCD1D59C1C200B4C5CC /* LXBaseDrawTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CA42DE51D59C1C300B4C5CC /* LXBaseDrawTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA42DFD1D59C1C300B4C5CC /* Build configuration list for PBXNativeTarget "LXBaseDrawTextViewTests" */;
+			buildPhases = (
+				5CA42DE21D59C1C300B4C5CC /* Sources */,
+				5CA42DE31D59C1C300B4C5CC /* Frameworks */,
+				5CA42DE41D59C1C300B4C5CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CA42DE81D59C1C300B4C5CC /* PBXTargetDependency */,
+			);
+			name = LXBaseDrawTextViewTests;
+			productName = LXBaseDrawTextViewTests;
+			productReference = 5CA42DE61D59C1C300B4C5CC /* LXBaseDrawTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CA42DF01D59C1C300B4C5CC /* LXBaseDrawTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA42E001D59C1C300B4C5CC /* Build configuration list for PBXNativeTarget "LXBaseDrawTextViewUITests" */;
+			buildPhases = (
+				5CA42DED1D59C1C300B4C5CC /* Sources */,
+				5CA42DEE1D59C1C300B4C5CC /* Frameworks */,
+				5CA42DEF1D59C1C300B4C5CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CA42DF31D59C1C300B4C5CC /* PBXTargetDependency */,
+			);
+			name = LXBaseDrawTextViewUITests;
+			productName = LXBaseDrawTextViewUITests;
+			productReference = 5CA42DF11D59C1C300B4C5CC /* LXBaseDrawTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CA42DC51D59C1C200B4C5CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LX;
+				TargetAttributes = {
+					5CA42DCC1D59C1C200B4C5CC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5CA42DE51D59C1C300B4C5CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5CA42DCC1D59C1C200B4C5CC;
+					};
+					5CA42DF01D59C1C300B4C5CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5CA42DCC1D59C1C200B4C5CC;
+					};
+				};
+			};
+			buildConfigurationList = 5CA42DC81D59C1C200B4C5CC /* Build configuration list for PBXProject "LXBaseDrawTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CA42DC41D59C1C200B4C5CC;
+			productRefGroup = 5CA42DCE1D59C1C200B4C5CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CA42DCC1D59C1C200B4C5CC /* LXBaseDrawTextView */,
+				5CA42DE51D59C1C300B4C5CC /* LXBaseDrawTextViewTests */,
+				5CA42DF01D59C1C300B4C5CC /* LXBaseDrawTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CA42DCB1D59C1C200B4C5CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA42DE01D59C1C200B4C5CC /* LaunchScreen.storyboard in Resources */,
+				5CA42E181D59C1EC00B4C5CC /* expression2.plist in Resources */,
+				5CA42DDD1D59C1C200B4C5CC /* Assets.xcassets in Resources */,
+				5CA42DDB1D59C1C200B4C5CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA42DE41D59C1C300B4C5CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA42DEF1D59C1C300B4C5CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CA42DC91D59C1C200B4C5CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA42E161D59C1E200B4C5CC /* LXRichTextView.m in Sources */,
+				5CA42DD81D59C1C200B4C5CC /* ViewController.m in Sources */,
+				5CA42E141D59C1E200B4C5CC /* LXRichTextImageRun.m in Sources */,
+				5CA42E131D59C1E200B4C5CC /* LXRichTextEmojiRun.m in Sources */,
+				5CA42E121D59C1E200B4C5CC /* LXRichTextBaseRun.m in Sources */,
+				5CA42E151D59C1E200B4C5CC /* LXRichTextURLRun.m in Sources */,
+				5CA42DD51D59C1C200B4C5CC /* AppDelegate.m in Sources */,
+				5CA42DD21D59C1C200B4C5CC /* main.m in Sources */,
+				5CA42E111D59C1E200B4C5CC /* LXHelpClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA42DE21D59C1C300B4C5CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA42DEB1D59C1C300B4C5CC /* LXBaseDrawTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA42DED1D59C1C300B4C5CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA42DF61D59C1C300B4C5CC /* LXBaseDrawTextViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CA42DE81D59C1C300B4C5CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CA42DCC1D59C1C200B4C5CC /* LXBaseDrawTextView */;
+			targetProxy = 5CA42DE71D59C1C300B4C5CC /* PBXContainerItemProxy */;
+		};
+		5CA42DF31D59C1C300B4C5CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CA42DCC1D59C1C200B4C5CC /* LXBaseDrawTextView */;
+			targetProxy = 5CA42DF21D59C1C300B4C5CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CA42DD91D59C1C200B4C5CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA42DDA1D59C1C200B4C5CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CA42DDE1D59C1C200B4C5CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA42DDF1D59C1C200B4C5CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CA42DF81D59C1C300B4C5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CA42DF91D59C1C300B4C5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CA42DFB1D59C1C300B4C5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXBaseDrawTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixu.LXBaseDrawTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CA42DFC1D59C1C300B4C5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXBaseDrawTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixu.LXBaseDrawTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CA42DFE1D59C1C300B4C5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXBaseDrawTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixu.LXBaseDrawTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXBaseDrawTextView.app/LXBaseDrawTextView";
+			};
+			name = Debug;
+		};
+		5CA42DFF1D59C1C300B4C5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXBaseDrawTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixu.LXBaseDrawTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXBaseDrawTextView.app/LXBaseDrawTextView";
+			};
+			name = Release;
+		};
+		5CA42E011D59C1C300B4C5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXBaseDrawTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixu.LXBaseDrawTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXBaseDrawTextView;
+			};
+			name = Debug;
+		};
+		5CA42E021D59C1C300B4C5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXBaseDrawTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixu.LXBaseDrawTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXBaseDrawTextView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CA42DC81D59C1C200B4C5CC /* Build configuration list for PBXProject "LXBaseDrawTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA42DF81D59C1C300B4C5CC /* Debug */,
+				5CA42DF91D59C1C300B4C5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA42DFA1D59C1C300B4C5CC /* Build configuration list for PBXNativeTarget "LXBaseDrawTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA42DFB1D59C1C300B4C5CC /* Debug */,
+				5CA42DFC1D59C1C300B4C5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CA42DFD1D59C1C300B4C5CC /* Build configuration list for PBXNativeTarget "LXBaseDrawTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA42DFE1D59C1C300B4C5CC /* Debug */,
+				5CA42DFF1D59C1C300B4C5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CA42E001D59C1C300B4C5CC /* Build configuration list for PBXNativeTarget "LXBaseDrawTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA42E011D59C1C300B4C5CC /* Debug */,
+				5CA42E021D59C1C300B4C5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CA42DC51D59C1C200B4C5CC /* Project object */;
+}

@@ -19,7 +19,7 @@
         self.urlName = @"";
         self.urlDic = @{};
         //
-        self.isUrl = NO;
+        self.isUrl = YES;
         _richTextRunsArray = [[NSMutableArray alloc] init];
         _richTextRunRectDic = [[NSMutableDictionary alloc] init];
         self.backgroundColor = [UIColor clearColor];
@@ -42,7 +42,6 @@
     [paragraphStyle0 setLineBreakMode:NSLineBreakByCharWrapping];
     [attString addAttribute:NSParagraphStyleAttributeName value:paragraphStyle0 range:NSMakeRange(0, attString.length)];
     
-
 //    CTParagraphStyleSetting lineBreakMode;
 //    CTLineBreakMode lineBreak = kCTLineBreakByCharWrapping; //换行模式
 //    lineBreakMode.spec = kCTParagraphStyleSpecifierLineBreakMode;
@@ -70,7 +69,6 @@
 
     //绘图上下文
     CGContextRef context = UIGraphicsGetCurrentContext();
-    
     
     CTParagraphStyleSetting lineBreakMode;
     CTLineBreakMode lineBreak = kCTLineBreakByCharWrapping; //换行模式
@@ -112,7 +110,6 @@ check:  lineRange = CFRangeMake(lineRange.location,testLineLength);
         CGFloat lastRunWidth  = CTRunGetTypographicBounds(lastRun, CFRangeMake(0,0), &lastRunAscent, &laseRunDescent, NULL);
         CGFloat lastRunPointX = drawLineX + CTLineGetOffsetForStringIndex(line, CTRunGetStringRange(lastRun).location, NULL);
         
-#if 1
         if ((lastRunWidth + lastRunPointX) > self.bounds.size.width)
         {
             if (testLineLength > 0) {
@@ -123,14 +120,6 @@ check:  lineRange = CFRangeMake(lineRange.location,testLineLength);
             
             drawFlag = NO;
         }
-#else
-        if ((lastRunWidth + lastRunPointX) > self.bounds.size.width)
-        {
-            testLineLength--;
-            CFRelease(line);
-goto check;
-        }
-#endif
         
         //绘制普通行元素
         drawLineX = CTLineGetPenOffsetForFlush(line,0,self.bounds.size.width);
